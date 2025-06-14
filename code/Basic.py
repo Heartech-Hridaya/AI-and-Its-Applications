@@ -193,21 +193,23 @@
 
 
 
-lang = input("Enter a word to convert - ")
-v = lang[0]
-if (lang[0] == "a"):
-    for i in range (0,len(lang)):
-        if (lang[i]=="a" or lang[i]=="e" or lang[i]=="i",lang[i]=="o",lang[i]=="u"):
-            rest = lang[i:]
-            break
-        else:
-            v = v + lang[i]
+# lang = input("Enter a word to convert - ")
+# v = lang[0]
+# if (lang[0] == "a"):
+#     for i in range (0,len(lang)):
+#         if (lang[i]=="a" or lang[i]=="e" or lang[i]=="i",lang[i]=="o",lang[i]=="u"):
+#             rest = lang[i:]
+#             break
+#         else:
+#             v = v + lang[i]
             
     
-else:
-        v = lang[0:2]
-        rest = lang[2:]
+# else:
+#         v = lang[0:2]
+#         rest = lang[2:]
 
-final = "Ma" + rest + v + "da"
+# final = "Ma" + rest + v + "da"
 
-print(f"Your encoded word is : {final}")
+# print(f"Your encoded word is : {final}")
+
+
